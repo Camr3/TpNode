@@ -1,0 +1,36 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+    <h1>Liste des opérations</h1>
+
+    <% if (data.length > 0) { %>
+      <table>
+        <thead>
+          <tr>
+            <th>Type</th>
+            <th>Montant</th>
+            <th>Categorie</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% data.forEach(doc => { %>
+            <tr>
+              <td><%= doc.type %></td>
+              <td><%= doc.montant %> $</td>
+              <td><%= doc.categorie %></td>
+              <td><%= doc.date %></td>
+            </tr>
+          <% }); %>
+        </tbody>
+      </table>
+    <% } else { %>
+      <p>Aucune opération enregistrée.</p>
+    <% } %>
+</body>
+</html>

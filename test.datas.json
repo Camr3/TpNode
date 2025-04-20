@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "67f9512194b9bf733fe1b0af"
+  },
+  "montant": 100,
+  "categorie": "maison",
+  "date": {
+    "$date": "2025-04-11T00:00:00.000Z"
+  },
+  "type": "Revenu",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9512c94b9bf733fe1b0b1"
+  },
+  "montant": 60,
+  "categorie": "prueba",
+  "date": {
+    "$date": "2025-04-11T00:00:00.000Z"
+  },
+  "type": "Depense",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9a00104e1d701ec15b191"
+  },
+  "montant": 200,
+  "categorie": "maison",
+  "date": {
+    "$date": "2025-04-22T00:00:00.000Z"
+  },
+  "type": "Revenu",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9a02b04e1d701ec15b195"
+  },
+  "montant": 52,
+  "categorie": "voiture",
+  "date": {
+    "$date": "2025-04-11T00:00:00.000Z"
+  },
+  "type": "Revenu",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9a06604e1d701ec15b19d"
+  },
+  "montant": 63,
+  "categorie": "voiture",
+  "date": {
+    "$date": "2025-04-11T00:00:00.000Z"
+  },
+  "type": "Depense",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67f9a09804e1d701ec15b1a1"
+  },
+  "montant": 63,
+  "categorie": "voyage",
+  "date": {
+    "$date": "2025-04-03T00:00:00.000Z"
+  },
+  "type": "Depense",
+  "__v": 0
+}]
